@@ -39,7 +39,7 @@ int main()
     // 发现Two(const One& two); 结果对象Two传递给了Fuc()
     One one;
     //Fuc(one);         Error
-    Fuc(Two2(one));
+    Fuc(Two2(one)); 
     //Fuc(one);
     return 0;
 }
